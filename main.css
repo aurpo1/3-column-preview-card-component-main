@@ -63,6 +63,7 @@ body {
   margin-top: 70px;
   padding: 12px 26px;
   color: hsla(0, 0%, 100%, 0.75);
+  box-sizing: border-box;
 }
 
 /* .cards .card:nth-child(1) .inner button .btn-text {
