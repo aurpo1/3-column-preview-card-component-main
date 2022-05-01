@@ -34,11 +34,11 @@ body {
   background-color: hsl(179, 100%, 13%);
 }
 
-.cards .card .icon > img {
+.cards .card .inner .icon > img {
   width: 52px;
 }
 
-.cards .card h2 {
+.cards .card .inner h2 {
   font-family: 'Big Shoulders Display', sans-serif;
   font-weight: 700;
   font-size: 32px;
@@ -46,7 +46,7 @@ body {
   margin: 24px 0;
 }
 
-.cards .card p {
+.cards .card .inner p {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -54,7 +54,7 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.cards .card button {
+.cards .card .inner button {
   font-family: 'Lexend Deca', sans-serif;
   background-color: hsl(0, 0%, 95%);
   border-style: none;
@@ -64,15 +64,20 @@ body {
   padding: 12px 26px;
 }
 
-.cards .card:nth-child(1) button .btn-text {
+.cards .card:nth-child(1) .inner button .btn-text {
   color: hsl(31, 77%, 52%);
 }
 
-.cards .card:nth-child(2) button .btn-text {
+.cards .card:nth-child(2) .inner button .btn-text {
   color: hsl(184, 100%, 22%);
 }
 
-.cards .card:nth-child(3) button .btn-text {
+.cards .card:nth-child(3) .inner button .btn-text {
   color: hsl(179, 100%, 13%);
 }
 
+/* .cards .card .inner button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+} */
