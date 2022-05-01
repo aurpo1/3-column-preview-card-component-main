@@ -62,9 +62,10 @@ body {
   cursor: pointer;
   margin-top: 70px;
   padding: 12px 26px;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
-.cards .card:nth-child(1) .inner button .btn-text {
+/* .cards .card:nth-child(1) .inner button .btn-text {
   color: hsl(31, 77%, 52%);
 }
 
@@ -74,10 +75,10 @@ body {
 
 .cards .card:nth-child(3) .inner button .btn-text {
   color: hsl(179, 100%, 13%);
-}
+} */
 
-/* .cards .card .inner button:hover {
+.cards .card .inner button:hover {
   background-color: transparent;
   color: hsl(0, 0%, 95%);
-  border-color: hsl(0, 0%, 95%);
-} */
+  border: 2px solid hsl(0, 0%, 95%);
+}
