@@ -1,0 +1,78 @@
+body {
+  margin: 0 auto;
+  padding: 80px 20px;
+  max-width: 1440px;
+}
+
+.inner {
+  min-width: 236px;
+  margin: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.cards .card {
+  list-style-type: none;
+  width: 316px;
+}
+
+.cards .card:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.cards .card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.cards .card:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.cards .card .icon > img {
+  width: 52px;
+}
+
+.cards .card h2 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: hsl(0, 0%, 95%);
+  margin: 24px 0;
+}
+
+.cards .card p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cards .card button {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 70px;
+  padding: 12px 26px;
+}
+
+.cards .card:nth-child(1) button .btn-text {
+  color: hsl(31, 77%, 52%);
+}
+
+.cards .card:nth-child(2) button .btn-text {
+  color: hsl(184, 100%, 22%);
+}
+
+.cards .card:nth-child(3) button .btn-text {
+  color: hsl(179, 100%, 13%);
+}
+
