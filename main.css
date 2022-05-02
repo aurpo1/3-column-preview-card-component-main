@@ -12,9 +12,7 @@ body {
 
 .cards {
   display: flex;
-  flex-wrap: wrap;
   margin: 0 auto;
-  /* border: 2px solid red; */
   border-radius: 5px;
   overflow: hidden;
   width: fit-content;
@@ -103,17 +101,22 @@ body {
   box-sizing: border-box;
 }
 
-
-@media only screen and (max-width: 767px) {
-  .card {
-    width: 316px;
-  }
-}
-
-
 .attribution { 
   font-size: 11px; 
   text-align: center;
   margin-top: 30px;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 768px) {
+
+  .cards {
+    width: 316px;
+    flex-wrap: wrap;  
+  }
+
+
+}
+
+
