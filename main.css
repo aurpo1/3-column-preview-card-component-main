@@ -7,16 +7,19 @@ body {
 .inner {
   min-width: 236px;
   margin: 40px;
+  box-sizing: border-box;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  /* border: 2px solid red; */
   border-radius: 5px;
   overflow: hidden;
   width: fit-content;
   box-sizing: border-box;
+  position: relative;
 }
 
 .cards .card {
@@ -69,17 +72,29 @@ body {
   box-sizing: border-box;
 }
 
-/* .cards .card:nth-child(1) .inner button .btn-text {
+.cards .card:nth-child(1) .inner button .btn-text {
   color: hsl(31, 77%, 52%);
+}
+
+.cards .card:nth-child(1) .inner button:hover .btn-text {
+  color: hsl(0, 0%, 95%);
 }
 
 .cards .card:nth-child(2) .inner button .btn-text {
   color: hsl(184, 100%, 22%);
 }
 
+.cards .card:nth-child(2) .inner button:hover .btn-text {
+  color: hsl(0, 0%, 95%);
+}
+
 .cards .card:nth-child(3) .inner button .btn-text {
   color: hsl(179, 100%, 13%);
-} */
+}
+
+.cards .card:nth-child(3) .inner button:hover .btn-text {
+  color: hsl(0, 0%, 95%);
+}
 
 .cards .card .inner button:hover {
   background-color: transparent;
@@ -87,3 +102,18 @@ body {
   border: 2px solid hsl(0, 0%, 95%);
   box-sizing: border-box;
 }
+
+
+@media only screen and (max-width: 767px) {
+  .card {
+    width: 316px;
+  }
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  margin-top: 30px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
